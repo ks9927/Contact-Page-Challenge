@@ -16,12 +16,68 @@
     <title>Contact Page</title>
   </head>
   <body>
- 
+    <div class="heading">
+      <img src="resources/Logo.svg">
+    </div>
+
+    <div class="site-info">
+      <h1>Interested in our business pricing?</h1>
+      <p>Fill out the form to view details and we’ll contact you as soon as possible.</p>
+    </div>
+
+    <div class="wrapper">
+      <form>
+
+        <div class="name-info">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Ethan Johnson">
+      </div>
+
+      <div class="email-info">
+        <label for="email">Company Email</label>
+        <input type="email" id="email" name="email" placeholder="ethan@johnson.com">
+      </div>
+
+      <div class="size-info">
+        <label for="comp-size">Company Size</label>
+        <select id="comp-size" name="comp-size">
+          <option value="50-100">50-100 employees</option>
+          <option value="100-200">100-200 employees</option>
+          <option value="200-300">200-300 employees</option>
+          <option value="300-plus">300 + employees</option>
+        </select>
+      </div>
+
+      <div class="subject-info">
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" placeholder="Building Landing pages">
+          <option value="landing-page">Building Landing pages</option>
+          <option value="web-design">Designing a webpage</option>
+          <option value="web-manage">Managing a Website</option>
+          <option value="maintain">Maintaining a website</option>
+        </select>
+      </div>
+
+      <div class="message-info">
+        <label for="msg-box">Message</label>
+        <textarea id="msg-box" name="msg-box" placeholder="50-100 employees"></textarea>
+      </div>
+
+      <button type="submit">Contact Sales</button>
+
+
+
+      </form>
 
 
 
 
-    
+
+
+    </div>
+
+
+
     <!--Author Info-->
     <div class="author-info">
       Coded by <a href="#">Your Name Here</a> | Challenge by

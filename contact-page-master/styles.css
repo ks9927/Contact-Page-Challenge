@@ -7,9 +7,30 @@
 body {
   height: 100vh;
   font-family: "Be Vietnam Pro", sans-serif;
+  background-image: url(resources/background.svg);
 }
 
+.heading {
+  margin-top: 20px;
+  margin-bottom: 44px;
+}
 
+.site-info {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.site-info h1 {
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+
+.wrapper {
+  background-color: aliceblue;
+  max-width: 810px;
+  margin: auto;
+}
 
 
 
