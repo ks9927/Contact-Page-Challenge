@@ -31,15 +31,19 @@ body {
   max-width: 810px;
   max-height: 100%;
   margin: auto;
-  padding: 100px;
+  padding: 10px;
 }
 
-
+input, label {
+  display: block;
+  padding: 10px;
+}
 
 .name-info {
   border: solid 2px blue;
   margin-top: 32px;
   margin-bottom: 24px;
+
 }
 
 .email-info {
@@ -54,12 +58,14 @@ body {
   margin-top: 24px;
   margin-bottom: 24px;
  
+ 
 }
 
 .subject-info {
   border: solid 2px purple;
   margin-top: 24px;
   margin-bottom: 24px;
+  
  
 }
 
