@@ -34,8 +34,8 @@ body {
   padding: 10px;
 }
 
-input, label {
-  display: block;
+.wrapper div {
+  display: inline-block;
   padding: 10px;
 }
 
@@ -43,14 +43,12 @@ input, label {
   border: solid 2px blue;
   margin-top: 32px;
   margin-bottom: 24px;
-
 }
 
 .email-info {
   border: solid 2px orange;
   margin-top: 32px;
   margin-bottom: 24px;
- 
 }
 
 .size-info {
@@ -69,10 +67,11 @@ input, label {
  
 }
 
-.message-info {
+.wrapper .message-info {
   border: solid 2px coral;
   margin-top: 24px;
   margin-bottom: 32px;
+  display: block;
 }
 
 button {
