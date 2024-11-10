@@ -18,11 +18,19 @@ body {
 .site-info {
   color: #fff;
   text-align: center;
-  margin-bottom: 72px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-wrap: wrap;
+  border: solid 2px black;
+  width: 50%;
 }
 
 .site-info h1 {
   margin-bottom: 16px;
+  font-size: 64px;
+}
+
+.site-info p {
   font-size: 32px;
 }
 
@@ -34,6 +42,7 @@ body {
   padding: 10px;
   border-radius: 10px;
 }
+
 .wrapper input, 
 .wrapper select {
   width: 300px;
@@ -50,8 +59,23 @@ body {
 
 .wrapper label {
   display: block;
-  font-size: bold;
+  font-weight: bold;
+  font-size: 14px;
 }
+
+.wrapper select {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
 .wrapper div {
   display: inline-block;
   padding: 10px;
@@ -98,6 +122,8 @@ button {
   margin-left: 32px;
   margin-left: 32px;
   border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 
