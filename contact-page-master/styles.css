@@ -22,7 +22,6 @@ body {
   margin: auto;
   margin-bottom: 50px;
   text-wrap: wrap;
-  border: solid 2px black;
   width: 50%;
 }
 
@@ -40,7 +39,7 @@ body {
   max-width: 60%;
   max-height: 200%;
   margin: auto;
-  padding: 10px;
+  padding: 20px 10px;
   border-radius: 10px;
 }
 
@@ -86,29 +85,7 @@ textarea::placeholder {
   
 }
 
-.name-info {
-  border: solid 2px blue;
- 
-}
-
-.email-info {
-  border: solid 2px orange;
-  
-}
-
-.size-info {
-  border: solid 2px green;
- 
-}
-
-.subject-info {
-  border: solid 2px purple;
- 
- 
-}
-
 .wrapper .message-info {
-  border: solid 2px coral;
   display: block;
   width: 100%;
   margin-bottom: 24px;
