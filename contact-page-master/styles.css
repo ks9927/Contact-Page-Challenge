@@ -66,6 +66,7 @@ body {
 .wrapper select {
   font-weight: bold;
   font-size: 16px;
+  background-color: #fff;
 }
 
 input::placeholder,
@@ -100,6 +101,9 @@ button {
   border-radius: 10px;
   font-weight: bold;
   font-size: 20px;
+  background-color: #fff;
+  color: #4036A9;
+  border: solid 2px #fff;
 }
 
 
